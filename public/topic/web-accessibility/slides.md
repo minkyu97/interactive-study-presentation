@@ -73,6 +73,12 @@ WSC에 따르면,
 
 ---
 
+<!-- .slide: class="content" -->
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/3f31oufqFSM" title="Web Accessibility Perspectives - Compilation of 10 Topics/Videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 <!-- .slide: class="header content" -->
 
 # 접근성 표준
@@ -88,6 +94,8 @@ WSC에 따르면,
 
 # 접근성 표준
 
+## WCAG의 역사
+
 ![WCAG Timeline](WCAG-timeline.png) <!-- .element: style="background: white; height: 400px;" -->
 
 
@@ -96,4 +104,90 @@ WSC에 따르면,
 <!-- .slide: class="header content" -->
 
 # 접근성 표준
+
+## 3단계 접근성 수준
+
+- A: 최소 요구사항 <!-- .element: class="fragment semi-fade-out" data-fragment-index="1" -->
+- AA: 국제적 권장 요구사항 <span class="fragment" data-fragment-index="1">(대부분 법률, 규제의 기준)</span>
+- AAA: 가장 높은 수준의 접근성 <!-- .element: class="fragment semi-fade-out" data-fragment-index="1" -->
+
+---
+
+<!-- .slide: class="header content" -->
+
+# 접근성 표준
+
+## 4대 원칙 (POUR)
+
+- 인식 가능성(Perceivable): 콘텐츠가 사용자에게 인식될 수 있어야 함
+- 운용 가능성(Operable): 콘텐츠의 탐색이 가능해야 함
+- 이해 가능성(Understandable): 콘텐츠가 이해 가능해야 함
+- 견고성(Robust): 다양한 기기에서 콘텐츠가 접근 가능해야 함
+
+---
+
+<!-- .slide: class="header content" data-auto-animate -->
+
+# 접근성 표준
+
+## 이것만은 지키자!..
+
+Perceivable
+
+- 대체 텍스트 사용하기
+- 멀티미디어에 자막 추가하기
+- 컨텐츠를 다양한 방법으로 표현 가능하도록 제작하기
+- 컨텐츠를 보고 들을 수 있도록 제작하기
+
+
+---
+
+<!-- .slide: class="header content" data-auto-animate -->
+
+# 접근성 표준
+
+## 이것만은 지키자!..
+
+Operable
+
+- 키보드로 모든 컨텐츠를 사용할 수 있도록 만들기
+- 콘텐츠를 읽기에 충분한 시간을 주기
+- 발작 등 신체 반응을 유발할 수 있는 콘텐츠 지양하기
+- 콘텐츠를 탐색하고 찾는 것을 쉽게 만들기
+- 키보드 외의 입력을 쉽게 사용하도록 만들기
+
+---
+
+<!-- .slide: class="header content" data-auto-animate -->
+
+# 접근성 표준
+
+## 이것만은 지키자!..
+
+Understandable
+
+- 텍스트를 읽고 이해하기 쉽게 만들기
+- 콘텐츠가 예측 가능한 방식으로 나타나도록 만들기
+- 사용자가 실수를 피하도록 만들기
+
+---
+
+<!-- .slide: class="header content" data-auto-animate -->
+
+# 접근성 표준
+
+## 이것만은 지키자!..
+
+Robust
+
+- 웹 표준을 준수하기
+- 현재 및 미래의 도구에 호환 가능하도록 만들기 (Assistive Technology)
+
+---
+
+<!-- .slide: class="header content" data-auto-animate -->
+
+# 접근성 표준
+
+## 이것만은 지키자!..
 
