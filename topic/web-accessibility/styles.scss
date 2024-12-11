@@ -1,0 +1,78 @@
+div.slide-background-content {
+  background: linear-gradient(0, #3d3d3d, #000000);
+}
+
+div:is(.slides, .pdf-page) {
+  // 모든 슬라이드 공통
+  section {
+    color: #ffffff;
+  }
+
+  // 첫 슬라이드
+  section.title {
+    h1 {
+      font-size: 64px;
+    }
+  }
+
+  // 헤더를 갖는 슬라이드
+  section.header {
+    h1 {
+      font-size: 2.4em;
+      text-align: left;
+      margin-bottom: 32px;
+    }
+
+    h2 {
+      font-size: 1.6em;
+      text-align: left;
+      margin-bottom: 24px;
+    }
+  }
+
+  // 콘텐츠를 갖는 슬라이드
+  section.content {
+    font-size: 20px;
+
+    * {
+      line-height: 1.2em;
+    }
+
+    > p:has(> img) {
+      display: flex;
+      justify-content: center;
+
+      > img {
+        box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+      }
+    }
+
+    > p:not(:has(> img)) {
+      margin: 10px 0;
+    }
+
+    ul {
+      margin-left: 1em;
+
+      li {
+        margin: 10px 0;
+      }
+    }
+
+    blockquote {
+      font-size: 28px;
+      font-style: italic;
+      padding: 12px;
+      margin: 24px;
+      border-left: 2px solid #ffffff;
+
+      cite {
+        display: block;
+        font-size: 18px;
+        font-style: normal;
+        text-align: right;
+        margin-top: 12px;
+      }
+    }
+  }
+}

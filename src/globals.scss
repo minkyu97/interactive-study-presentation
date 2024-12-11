@@ -11,18 +11,39 @@
   font-size: 1rem;
 }
 
-// * {
-//   text-align: start;
-//   line-height: 1.2em;
-//   word-break: keep-all;
-// }
+// 모든 요소 공통사항
+* {
+  text-align: start;
+  line-height: 1.2em;
+  word-break: keep-all;
+  margin: 0;
+  padding: 0;
+}
 
-// section {
-//   top: 0 !important;
-//   height: 100%;
-//   padding: 2rem;
-//   box-sizing: border-box;
-// }
+// pdf 모드에서 padding 사라지는 거 방지
+html.reveal-print .reveal .slides section {
+  padding: 64px !important;
+}
+
+// 슬라이드별 설정
+div:is(.slides, .pdf-page) {
+  // 모든 슬라이드 공통
+  section {
+    top: 0 !important;
+    height: 100%;
+    padding: 64px;
+    box-sizing: border-box;
+  }
+
+  section.stack {
+    padding: 0;
+  }
+
+  // 각 요소들 위치 직접 정할 때 사용
+  section.absolute * {
+    position: absolute;
+  }
+}
 
 // h1 {
 //   font-size: 3rem;

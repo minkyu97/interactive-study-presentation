@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build:dev": "vite build --base /dist",
-    "build:prod": "vite build --base /interactive-study-presentation",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "yarn build:dev && vite preview --base /dist"
+    "preview": "yarn build --base /dist && vite preview --base /dist"
   },
   "dependencies": {
     "reveal.js": "^5.1.0"
@@ -20,6 +19,6 @@
     "globals": "^15.9.0",
     "highlight.js": "^11.10.0",
     "sass": "^1.79.2",
-    "vite": "^5.4.1"
+    "vite": "^6.0.3"
   }
 }
