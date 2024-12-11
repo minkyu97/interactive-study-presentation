@@ -46,9 +46,9 @@ WSC에 따르면,
 - 아래의 장애를 모두 포함 <!-- .element: class="fragment" -->
   - 청각
   - 인지
-  - 신경
+  - 신경 <!-- .element: class="fragment semi-fade-out" data-fragment-index="2" --->
   - 물리
-  - 말하기
+  - 말하기 <!-- .element: class="fragment semi-fade-out" data-fragment-index="2" --->
   - 시각
 
 ---
