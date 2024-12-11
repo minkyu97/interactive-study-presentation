@@ -1,0 +1,25 @@
+{
+  "name": "interactive-study-presentation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:dev": "vite build --base /dist",
+    "build:prod": "vite build --base /interactive-study-presentation",
+    "lint": "eslint .",
+    "preview": "yarn build:dev && vite preview --base /dist"
+  },
+  "dependencies": {
+    "reveal.js": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "glob": "^11.0.0",
+    "globals": "^15.9.0",
+    "highlight.js": "^11.10.0",
+    "sass": "^1.79.2",
+    "vite": "^5.4.1"
+  }
+}
